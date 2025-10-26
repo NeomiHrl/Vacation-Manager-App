@@ -1,3 +1,28 @@
+**🛠 How to Run with Docker**
+
+1. Clone the repository  
+   bash
+   git clone https://github.com/NeomiHrl/Vacation-Manager-App.git
+   
+
+2. Run the project with Docker Compose  
+   bash
+   docker-compose up --build
+   
+
+3. Access the application:
+   - Frontend (React): http://localhost:3000
+   - Backend (Flask): http://localhost:5000
+   - MySQL: accessible on port 3307
+
+4. Stop all containers  
+   To stop the app when you're done, run:
+   bash
+   docker-compose down
+
+
+---
+
 📌 Features
 
 For All Users:
